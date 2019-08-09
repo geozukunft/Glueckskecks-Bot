@@ -1,0 +1,5 @@
+{
+	"botinfo": "Botname: {{botname}} \nVersion: {{version}} \n\nLast changes: ({{version}}){{changelog_latest}}",
+    "0": "You are going to be promoted.",
+	"1": "The time is good for negotiations."
+}

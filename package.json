@@ -1,0 +1,18 @@
+{
+  "name": "Glückskeks_Bot",
+  "version": "1.0.0",
+  "description": "Telegram Bot that will give out random Furtune Cookie Texts",
+  "main": "Glückskeks_Bot",
+  "dependencies": {
+    "csv": "^5.1.1",
+    "hash-int": "^1.0.0",
+    "mysql": "^2.16.0",
+    "new-i18n": "^1.2.0",
+    "telebot": "^1.2.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BolverBlitz",
+  "license": "MIT"
+}
