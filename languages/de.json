@@ -1,5 +1,11 @@
 {
 	"botinfo": "Botname: {{botname}} \nVersion: {{version}} \n\nLetzte Änderungen: ({{version}}){{changelog_latest}}",
     "0": "Sie werden in hohe Positionen aufsteigen.",
-	"1": "Günstige Zeit für Verhandlungen."
+	"1": "Günstige Zeit für Verhandlungen.",
+	"2": "Gelassen bleiben! Sie sind in Topform.",
+	"3": "Auf Ihre Spürnase können Sie sich verlassen.",
+	"4": "Das Glück fällt nicht mit der Tür ins Haus, es nähert sich auf leisen Sohlen.",
+	"5": "Gute Nachrichten, Sie haben aufs richtige Pferd gesetzt.",
+	"6": "Ab jetzt wird Ihnen Ihre Freundlichkeit Erfolg bringen.",
+	"7": "Es erwartet Sie in der kommenden Woche eine interessante Begegnung."
 }
