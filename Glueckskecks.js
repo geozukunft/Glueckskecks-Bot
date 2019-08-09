@@ -73,7 +73,6 @@ bot.on(/^\/botinfo( .+)*$/i, (msg, props) => {
                              bot.deleteMessage(msg.chat.id,msg.message_id);
                      }, config.WTdelmsglong);
              });
-             bot.deleteMessage(msg.chat.id, msg.message_id);
 		}else{
 			msg.reply.text("This language does not exist in my DB. I´m sorry.");
 		}
