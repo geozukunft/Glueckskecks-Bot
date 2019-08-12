@@ -129,5 +129,30 @@ bot.on(/^\/luck( .+)*$/i, (msg, props) => {
 });
 
 
+bot.on('inlineQuery', msg => {
 
+    let query = msg.query;
+	var zufallnumber = f.getRandomInt(config.fortuneCookies);
+	var zufall = zufallnumber.toString();
+
+    // Create a new answer list object
+    const answers = bot.answerList(msg.id, {cacheTime: 60});
+
+    // Article
+    answers.addArticle({
+        id: 'luckde',
+        title: 'Zufälliger Glückskeksspruch',
+        description: `Language: German`,
+        message_text: (i18n('de', zufall))
+    });
+	
+	answers.addArticle({
+        id: 'lucken',
+        title: 'Random fortune cookie saying',
+        description: `Language: English`,
+        message_text: (i18n('en', zufall))
+    });
+    return bot.answerQuery(answers);
+
+});
 
